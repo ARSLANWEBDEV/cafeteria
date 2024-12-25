@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Cafeteria - Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .menu-section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .category-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            color: #2d3436;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .menu-item {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .menu-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .menu-item h3 {
+            color: #ff6b6b;
+            margin-bottom: 10px;
+        }
+
+        .menu-item p {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .price {
+            color: #2d3436;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <section class="menu-section">
+        <h2 class="category-title">Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd" alt="Classic Burger">
+                <h3>Classic Burger</h3>
+                <p>Juicy beef patty with lettuce, tomato, cheese, and our special sauce</p>
+                <div class="price">$12.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1" alt="Grilled Chicken Salad">
+                <h3>Grilled Chicken Salad</h3>
+                <p>Fresh mixed greens with grilled chicken, avocado, and balsamic dressing</p>
+                <div class="price">$10.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1604068549290-dea0e4a305ca" alt="Margherita Pizza">
+                <h3>Margherita Pizza</h3>
+                <p>Fresh mozzarella, tomatoes, basil, and olive oil on thin crust</p>
+                <div class="price">$14.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1612874742237-6526221588e3" alt="Pasta Carbonara">
+                <h3>Pasta Carbonara</h3>
+                <p>Spaghetti with creamy sauce, pancetta, and parmesan cheese</p>
+                <div class="price">$13.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1579208030886-b937da0925dc" alt="Fish and Chips">
+                <h3>Fish and Chips</h3>
+                <p>Crispy battered cod with thick-cut fries and tartar sauce</p>
+                <div class="price">$15.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b" alt="Vegetable Stir-Fry">
+                <h3>Vegetable Stir-Fry</h3>
+                <p>Mixed vegetables in Asian sauce with steamed rice</p>
+                <div class="price">$11.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f" alt="Caesar Wrap">
+                <h3>Caesar Wrap</h3>
+                <p>Grilled chicken, romaine, parmesan, and caesar dressing in a wrap</p>
+                <div class="price">$9.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1633964913295-ceb43826e7c9" alt="Mushroom Risotto">
+                <h3>Mushroom Risotto</h3>
+                <p>Creamy arborio rice with wild mushrooms and truffle oil</p>
+                <div class="price">$16.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947" alt="BBQ Ribs">
+                <h3>BBQ Ribs</h3>
+                <p>Tender pork ribs with house-made BBQ sauce and coleslaw</p>
+                <div class="price">$18.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1551248429-40975aa4de74" alt="Greek Salad">
+                <h3>Greek Salad</h3>
+                <p>Cucumber, tomatoes, olives, feta cheese with olive oil dressing</p>
+                <div class="price">$9.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1599974579688-8dbdd335c77f" alt="Chicken Quesadilla">
+                <h3>Chicken Quesadilla</h3>
+                <p>Grilled chicken with melted cheese, peppers, and onions</p>
+                <div class="price">$11.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1617622141573-2e00d8252c41" alt="Beef Stir-Fry">
+                <h3>Beef Stir-Fry</h3>
+                <p>Tender beef strips with vegetables in teriyaki sauce</p>
+                <div class="price">$14.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1520072959219-c595dc870360" alt="Veggie Burger">
+                <h3>Veggie Burger</h3>
+                <p>House-made vegetable patty with avocado and chipotle mayo</p>
+                <div class="price">$11.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288" alt="Grilled Salmon">
+                <h3>Grilled Salmon</h3>
+                <p>Fresh Atlantic salmon with lemon butter sauce</p>
+                <div class="price">$17.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1550507992-eb63ffee0847" alt="Club Sandwich">
+                <h3>Club Sandwich</h3>
+                <p>Triple-decker with turkey, bacon, lettuce, and tomato</p>
+                <div class="price">$10.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141" alt="Shrimp Scampi">
+                <h3>Shrimp Scampi</h3>
+                <p>Garlic butter shrimp over linguine pasta</p>
+                <div class="price">$16.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1645112411341-6c4fd023714a" alt="Chicken Alfredo">
+                <h3>Chicken Alfredo</h3>
+                <p>Fettuccine pasta in creamy sauce with grilled chicken</p>
+                <div class="price">$14.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd" alt="Mediterranean Bowl">
+                <h3>Mediterranean Bowl</h3>
+                <p>Quinoa, hummus, falafel, and mixed vegetables</p>
+                <div class="price">$12.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Steak Fajitas">
+                <h3>Steak Fajitas</h3>
+                <p>Sizzling steak strips with peppers, onions, and tortillas</p>
+                <div class="price">$17.99</div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351" alt="Tuna Poke Bowl">
+                <h3>Tuna Poke Bowl</h3>
+                <p>Fresh tuna, rice, avocado, and Asian-inspired sauce</p>
+                <div class="price">$15.99</div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
